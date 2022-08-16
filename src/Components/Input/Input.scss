@@ -6,34 +6,44 @@
 
    width: 100%;
 
+
    position: relative;
+   
 
    > label {
-      margin-bottom: 10px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
 
-      color: #aaaaaa;
-      font-size: 13px;
-      font-weight: 500;
+      color: #C4C4C4;
+      margin-bottom: 10px;
+      align-items: left;
+      justify-content: left;
    }
 
    > input {
       width: 100%;
+      
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
 
-      color: #292929;
-      font-weight: 600;
+      color: #000000;
 
-      background: #f8f8f8;
-
-      border: 0;
-      border-radius: 4px;
-
-      outline: 2px solid transparent;
+      border-style: hidden;
+      border-bottom-style: solid;
+      border-bottom-width:1px;
+      
+      
+      border-color: #C4C4C4;
 
       padding: 15px;
 
-      &:focus {
-         outline: 2px solid #7436ff;
-      }
+      
    }
 
    > svg {

@@ -6,22 +6,30 @@
    justify-content: center;
    flex-direction: column;
 
+   
+   /** 600 **/
    @media (min-width: 0px) {
       width: 100%;
 
-      padding: 20px;
+      padding: 40px;
    }
 
    @media (min-width: 900px) {
-      width: 50%;
+      width: 40%;
 
-      padding: 80px;
+      padding: 8vw;
    }
-
    > h2 {
-      color: #7436ff;
+      color: #000000;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 41px;
+      line-height: 50px;
+      /* identical to box height */
+      
+      text-align: center;
       font-weight: 700;
-      font-size: 30px;
 
       text-align: center;
 
@@ -30,10 +38,14 @@
 
    .welcome-text {
       text-align: center;
-      font-size: 13px;
-      color: #aaaaaa;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
 
-      margin-bottom: 30px;
+      margin-bottom: 80px;
    }
 
    .buttons-social-media {
@@ -66,4 +78,28 @@
          cursor: pointer;
       }
    }
+   .forgot-password{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      
+      color: #890000;
+      margin-left: 6.9vw;
+   }
+   .line{
+      display: flex;
+      flex-direction: row;
+   }
+   .remember-text{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      color: #000000;
+      margin-left: 8px;
+   }
 }
+

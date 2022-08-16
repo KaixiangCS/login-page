@@ -4,7 +4,7 @@ import './ButtonSignUp.scss'
 const ButtonSignUp = () => {
    return (
      <button className="button-sign-up" onclick={(e) => {e.preventDefault()}}>
-        CRIAR CONTA
+        Log in
      </button>
    )
 }
